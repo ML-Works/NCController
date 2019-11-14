@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NCControler_Tests' do
+  pod 'NCControler', :path => '../'
+  
+  
+end
