@@ -1,0 +1,16 @@
+PODS:
+  - NCControler (0.2.2)
+
+DEPENDENCIES:
+  - NCControler (from `../`)
+
+EXTERNAL SOURCES:
+  NCControler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NCControler: f8eefd5abe083be25a137aebd23d334a2d249e2c
+
+PODFILE CHECKSUM: 09ae3078db89759c17d77cca3ca4290febb15c90
+
+COCOAPODS: 1.8.4

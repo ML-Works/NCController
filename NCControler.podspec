@@ -1,42 +1,20 @@
-#
-# Be sure to run `pod lib lint NCControler.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'NCControler'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NCControler.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.2.3'
+  s.summary          = 'NSNotificationCenter controller based on idea of Facebook KVOController'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+NCController allows you to observe default's NSNotificationCenter
+notifications using blocks and do not care of unobservation.
+Single class: MLWNCController
                        DESC
 
-  s.homepage         = 'https://github.com/Andrew Podkovyrin/NCControler'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Andrew Podkovyrin' => 'podkovyrin@gmail.com' }
-  s.source           = { :git => 'https://github.com/Andrew Podkovyrin/NCControler.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = 'https://github.com/MLWOS/NCController'
+  s.license          = 'MIT'
+  s.author           = { 'Anton Bukov' => 'k06aaa@gmail.com' }
+  s.source           = { :git => 'https://github.com/MLWOS/NCController.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NCControler/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'NCControler' => ['NCControler/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'NCControler/*'
 end

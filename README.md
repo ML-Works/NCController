@@ -1,29 +1,31 @@
-# NCControler
+# NCController
 
-[![CI Status](https://img.shields.io/travis/Andrew Podkovyrin/NCControler.svg?style=flat)](https://travis-ci.org/Andrew Podkovyrin/NCControler)
-[![Version](https://img.shields.io/cocoapods/v/NCControler.svg?style=flat)](https://cocoapods.org/pods/NCControler)
-[![License](https://img.shields.io/cocoapods/l/NCControler.svg?style=flat)](https://cocoapods.org/pods/NCControler)
-[![Platform](https://img.shields.io/cocoapods/p/NCControler.svg?style=flat)](https://cocoapods.org/pods/NCControler)
+[![CI Status](http://img.shields.io/travis/MLWOS/NCController.svg?style=flat)](https://travis-ci.org/MLWOS/NCController)
+[![Version](https://img.shields.io/cocoapods/v/NCController.svg?style=flat)](http://cocoapods.org/pods/NCController)
+[![License](https://img.shields.io/cocoapods/l/NCController.svg?style=flat)](http://cocoapods.org/pods/NCController)
+[![Platform](https://img.shields.io/cocoapods/p/NCController.svg?style=flat)](http://cocoapods.org/pods/NCController)
 
-## Example
+## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
+iOS 8+
+
 ## Installation
 
-NCControler is available through [CocoaPods](https://cocoapods.org). To install
+NCController is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'NCControler'
+pod "NCController"
 ```
 
 ## Author
 
-Andrew Podkovyrin, podkovyrin@gmail.com
+Anton Bukov, k06aaa@gmail.com
 
 ## License
 
-NCControler is available under the MIT license. See the LICENSE file for more info.
+NCController is available under the MIT license. See the LICENSE file for more info.

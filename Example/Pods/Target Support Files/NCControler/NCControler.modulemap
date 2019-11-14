@@ -1,0 +1,6 @@
+framework module NCControler {
+  umbrella header "NCControler-umbrella.h"
+
+  export *
+  module * { export * }
+}

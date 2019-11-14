@@ -1,0 +1,6 @@
+framework module Pods_NCControler_Tests {
+  umbrella header "Pods-NCControler_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
